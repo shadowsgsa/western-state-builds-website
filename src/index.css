@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +92,65 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-opensans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat font-bold;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative px-4 py-2 font-medium text-construction-darkgray hover:text-construction-brick transition-colors duration-300;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute left-0 bottom-0 w-0 h-[2px] bg-construction-brick transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  .btn-primary {
+    @apply bg-construction-brick text-white px-6 py-3 rounded-md font-semibold hover:bg-opacity-90 transition-all duration-300 shadow-md;
+  }
+
+  .btn-secondary {
+    @apply bg-construction-steel text-white px-6 py-3 rounded-md font-semibold hover:bg-opacity-90 transition-all duration-300 shadow-md;
+  }
+
+  .btn-outline {
+    @apply border-2 border-construction-brick text-construction-brick px-6 py-3 rounded-md font-semibold hover:bg-construction-brick hover:text-white transition-all duration-300;
+  }
+  
+  .service-card {
+    @apply bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-t-4 border-transparent hover:border-construction-brick;
+  }
+  
+  .portfolio-item {
+    @apply relative overflow-hidden rounded-lg shadow-lg group;
+  }
+  
+  .portfolio-overlay {
+    @apply absolute inset-0 bg-construction-darkgray bg-opacity-0 group-hover:bg-opacity-80 flex flex-col items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-construction-darkgray relative pb-3;
+  }
+  
+  .section-title::after {
+    @apply content-[''] absolute left-0 bottom-0 w-20 h-1 bg-construction-brick;
+  }
+
+  .count-up {
+    counter-reset: count 0;
+    animation: count-up 2s forwards;
+  }
+  
+  .count-up::after {
+    content: counter(count);
   }
 }
