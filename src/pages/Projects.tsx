@@ -64,7 +64,7 @@ const Projects = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in');
-          entry.target.style.opacity = '1';
+          entry.target.classList.add('opacity-100');
         }
       });
     }, { threshold: 0.1 });
@@ -139,7 +139,7 @@ const Projects = () => {
           {/* Projects Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project, index) => (
-              <div key={project.id} className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: `${index * 0.1}s` }}>
+              <div key={project.id} className="portfolio-item group initially-hidden opacity-0" style={{ animationDelay: `${index * 0.1}s` }}>
                 <img 
                   src={project.imageUrl} 
                   alt={project.title} 
