@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -11,7 +10,7 @@ const About = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in');
-          entry.target.style.opacity = '1';
+          entry.target.classList.remove('opacity-0');
         }
       });
     }, { threshold: 0.1 });
@@ -56,9 +55,9 @@ const About = () => {
             </div>
             <div className="relative initially-hidden opacity-0">
               <img 
-                src="https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                alt="Our company history" 
-                className="w-full rounded-lg shadow-xl"
+                src="/lovable-uploads/5addd3f9-2cef-4bba-b28e-6ed3b3ce5847.png" 
+                alt="Construction site foundations" 
+                className="w-full rounded-lg shadow-xl object-cover h-[500px]"
               />
             </div>
           </div>
