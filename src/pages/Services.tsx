@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { HomeIcon, Building, Hammer, PenTool, Users, ArrowRight, CheckCircle } from 'lucide-react';
@@ -10,7 +11,7 @@ const Services = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in');
-          entry.target.style.opacity = '1';
+          entry.target.classList.remove('opacity-0');
         }
       });
     }, { threshold: 0.1 });

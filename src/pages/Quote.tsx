@@ -16,7 +16,7 @@ const Quote = () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fade-in');
-          entry.target.style.opacity = '1';
+          entry.target.classList.remove('opacity-0');
         }
       });
     }, { threshold: 0.1 });
