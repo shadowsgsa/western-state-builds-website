@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
 // Project data
@@ -150,7 +151,7 @@ const Projects = () => {
                   <p className="text-gray-200 mb-1">{project.location}</p>
                   <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
                   <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
-                    <a href={`/projects/${project.id}`}>View Details</a>
+                    <Link to={`/projects/${project.id}`}>View Details</Link>
                   </Button>
                 </div>
               </div>
@@ -169,10 +170,10 @@ const Projects = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
             <Button asChild className="bg-white text-construction-brick hover:bg-opacity-90">
-              <a href="/quote">Get a Free Quote</a>
+              <Link to="/quote">Get a Free Quote</Link>
             </Button>
             <Button asChild className="border-2 border-white text-white hover:bg-white hover:text-construction-brick">
-              <a href="/contact">Contact Our Team</a>
+              <Link to="/contact">Contact Our Team</Link>
             </Button>
           </div>
         </div>
