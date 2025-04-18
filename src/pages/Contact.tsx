@@ -106,7 +106,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Our Location</h3>
-                    <p className="text-gray-600">123 Construction Ave, Building City, State 12345</p>
+                    <p className="text-gray-600">9461 Charleville Blvd Ste.#285 Beverly Hills, Calif.90212</p>
                   </div>
                 </div>
                 
