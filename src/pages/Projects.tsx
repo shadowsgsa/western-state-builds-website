@@ -55,7 +55,7 @@ const projects = [
   }
 ];
 
-const Projects = () => {
+const Projects: React.FC = () => {
   const [filter, setFilter] = useState("all");
   const [filteredProjects, setFilteredProjects] = useState(projects);
 
@@ -86,6 +86,8 @@ const Projects = () => {
       setFilteredProjects(projects.filter(project => project.category === filter));
     }
   }, [filter]);
+
+  console.log("Projects component rendering, filtered projects:", filteredProjects);
 
   return (
     <div className="pt-20">
