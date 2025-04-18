@@ -150,7 +150,7 @@ const Contact = () => {
               {/* Google Map */}
               <div className="mt-10 h-80 bg-gray-200 rounded-lg overflow-hidden">
                 <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.27405770525!2d-118.69192047471653!3d34.02016130939095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1650450351500!5m2!1sen!2s" 
+                  src="https://www.google.com/maps/place/9461+Charleville+Blvd+%23285,+Beverly+Hills,+CA+90212,+USA/@34.0651679,-118.4013947,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2bbf954d71ecd:0xf4d4c78fbb0a2139!8m2!3d34.0651679!4d-118.3988198!16s%2Fg%2F11qpw2hk7s?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D" 
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
