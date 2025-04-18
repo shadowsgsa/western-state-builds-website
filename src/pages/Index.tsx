@@ -5,7 +5,7 @@ import { ArrowRight, HomeIcon, Building, Hammer, PenTool, Users, CheckCircle } f
 import { Button } from '@/components/ui/button';
 
 // Hero Section Background Image
-const heroBackground = "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80";
+const heroBackground = "/lovable-uploads/093485ba-917c-4c11-940a-e82b453834fc.png";
 
 const Index = () => {
   // Animation on scroll effect
@@ -38,11 +38,11 @@ const Index = () => {
         <div className="container mx-auto px-4 z-10">
           <div className="max-w-3xl animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Building the West,<br/> 
-              <span className="text-construction-brick">One Project at a Time</span>
+              Elegant Homes,<br/> 
+              <span className="text-construction-brick">Crafted with Precision</span>
             </h1>
             <p className="text-xl text-white mb-8">
-              Quality construction services for residential, commercial, and custom projects.
+              Transforming architectural visions into stunning residential masterpieces.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Button asChild className="btn-primary">
