@@ -35,14 +35,14 @@ const Navbar = () => {
           <Link to="/contact" className="nav-link">Contact</Link>
           <a href="tel:+18001234567" className="ml-4 flex items-center text-construction-brick font-semibold">
             <Phone className="mr-2 h-4 w-4" />
-            (800) 123-4567
+            (310)-409-5910
           </a>
           <Button className="ml-4 btn-primary">Get a Quote</Button>
         </nav>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center">
-          <a href="tel:+18001234567" className="mr-4 text-construction-brick">
+          <a href="tel:+13104095910" className="mr-4 text-construction-brick">
             <Phone className="h-5 w-5" />
           </a>
           <button
