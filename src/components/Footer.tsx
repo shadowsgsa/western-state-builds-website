@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-construction-brick" />
-                <a href="mailto:info@westernstate.com" className="text-gray-300 hover:text-construction-brick transition-colors">info@westernstate.com</a>
+                <a href="mailto:info@westernstate.com" className="text-gray-300 hover:text-construction-brick transition-colors">ken7938@gmail.com</a>
               </li>
               <li className="flex items-center">
                 <Clock className="h-5 w-5 mr-3 text-construction-brick" />
