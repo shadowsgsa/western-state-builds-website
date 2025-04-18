@@ -117,7 +117,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Phone Number</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+18001234567" className="hover:text-construction-brick">(800) 123-4567</a>
+                      <a href="tel:+13104095910" className="hover:text-construction-brick">(310)-409-5910</a>
                     </p>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Email Address</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@westernstate.com" className="hover:text-construction-brick">info@westernstate.com</a>
+                      <a href="mailto:ken7938@gmail.com" className="hover:text-construction-brick">ken7938@gmail.com</a>
                     </p>
                   </div>
                 </div>
