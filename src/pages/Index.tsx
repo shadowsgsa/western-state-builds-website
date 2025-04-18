@@ -182,7 +182,7 @@ const Index = () => {
             </div>
             <div className="relative h-96 initially-hidden opacity-0">
               <img 
-                src="public/WhatsApp Image 2025-04-18 at 10.48.57 PM.jpeg" 
+                src="public/lovable-uploads/5addd3f9-2cef-4bba-b28e-6ed3b3ce5847.png" 
                 alt="Construction team working" 
                 className="w-full h-full object-cover rounded-lg shadow-xl"
               />
