@@ -72,32 +72,10 @@ const Index = () => {
             {/* Service Card 1 */}
 
             {/* Service Card 2 */}
-            <div className="service-card initially-hidden opacity-0" style={{ animationDelay: '0.2s' }}>
-              <div className="bg-construction-brick bg-opacity-10 p-4 inline-block rounded-full mb-6">
-                <Building className="h-8 w-8 text-construction-brick" />
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-construction-darkgray">Commercial Projects</h3>
-              <p className="text-gray-600 mb-6">
-                From office buildings to retail spaces, we deliver commercial projects on time and within budget, meeting all specifications.
-              </p>
-              <Link to="/services#commercial" className="flex items-center text-construction-brick font-semibold hover:underline group">
-                Learn More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </div>
+            
 
             {/* Service Card 3 */}
-            <div className="service-card initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
-              <div className="bg-construction-brick bg-opacity-10 p-4 inline-block rounded-full mb-6">
-                <Hammer className="h-8 w-8 text-construction-brick" />
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-construction-darkgray">Custom Homes</h3>
-              <p className="text-gray-600 mb-6">
-                Create your dream home with our custom building services, featuring unique designs tailored to your preferences.
-              </p>
-              <Link to="/services#custom" className="flex items-center text-construction-brick font-semibold hover:underline group">
-                Learn More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </div>
+            
           </div>
 
           <div className="text-center mt-12">
