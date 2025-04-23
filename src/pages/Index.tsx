@@ -53,19 +53,6 @@ const Index = () => {
               </Button>
             </div>
           </div>
-            </div>
-            <div className="relative h-96 initially-hidden opacity-0">
-              <img 
-                src="/lovable-uploads/5addd3f9-2cef-4bba-b28e-6ed3b3ce5847.png?auto=format&fit=crop&w=1350&q=80" 
-                alt="Construction team working" 
-                className="w-full h-full object-cover rounded-lg shadow-xl"
-              />
-              <div className="absolute -bottom-8 -left-8 bg-white p-4 rounded-lg shadow-lg w-40 h-40 flex flex-col items-center justify-center">
-                <span className="text-3xl font-bold text-construction-brick">25+</span>
-                <span className="text-sm text-center mt-2">Years of Excellence</span>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -195,7 +182,7 @@ const Index = () => {
             </div>
             <div className="relative h-96 initially-hidden opacity-0">
               <img 
-                src="/lovable-uploads/5addd3f9-2cef-4bba-b28e-6ed3b3ce5847.png?auto=format&fit=crop&w=1350&q=80" 
+                src="https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Construction team working" 
                 className="w-full h-full object-cover rounded-lg shadow-xl"
               />
