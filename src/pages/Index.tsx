@@ -56,19 +56,19 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Services Preview Section */}
-      <section className="py-20 bg-construction-offwhite">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16 initially-hidden opacity-0">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">Our Construction Services</h2>
-            <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Western State Construction provides comprehensive solutions for all your building needs, 
-              from residential homes to large commercial structures.
-            </p>
-          </div>
-        </div>
-      </section>
+      {//  {/* Services Preview Section */}
+     // <section className="py-20 bg-construction-offwhite">
+      //  <div className="container mx-auto px-4">
+        //  <div className="text-center mb-16 initially-hidden opacity-0">
+         //   <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">Our Construction Services</h2>
+          //  <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
+           // <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+           //   Western State Construction provides comprehensive solutions for all your building needs, 
+           //   from residential homes to large commercial structures.
+           // </p>
+         // </div>
+       // </div>
+     // </section> }
 
        {/* About Preview Section */}
       <section className="py-20">
