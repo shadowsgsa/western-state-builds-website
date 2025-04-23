@@ -125,14 +125,14 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="initially-hidden opacity-0">
-              <h2 className="section-title">About Western State Construction</h2>
+              <h2 className="section-title">Our Commercial Projects</h2>
               <p className="text-gray-600 mb-6">
-                For over 25 years, Western State Construction has been a leader in the construction industry, 
-                delivering exceptional quality and service across the Western United States.
+                With decades of experience, we specialize in delivering high-quality commercial construction projects—from sleek office buildings to dynamic retail spaces.
+                Our team ensures every detail meets your specifications, while staying on schedule and within budget.
               </p>
               <p className="text-gray-600 mb-6">
-                Our team of experienced professionals is dedicated to bringing your construction vision to life, 
-                combining innovative techniques with traditional craftsmanship.
+                From initial planning to the final walkthrough, we handle each project with precision, transparency, and a deep commitment to excellence. 
+                No matter the scale or complexity, we transform your commercial vision into a reality that supports your business success.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-start">
@@ -153,7 +153,7 @@ const Index = () => {
                 </div>
               </div>
               <Button asChild className="btn-primary">
-                <Link to="/about">Learn More About Us</Link>
+                <Link to="/services">View All Services</Link>
               </Button>
             </div>
             <div className="relative h-96 initially-hidden opacity-0">
