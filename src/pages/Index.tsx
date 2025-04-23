@@ -67,22 +67,6 @@ const Index = () => {
               from residential homes to large commercial structures.
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Service Card 1 */}
-
-            {/* Service Card 2 */}
-            
-
-            {/* Service Card 3 */}
-            
-          </div>
-
-          <div className="text-center mt-12">
-            <Button asChild className="btn-secondary">
-              <Link to="/services">View All Services</Link>
-            </Button>
-          </div>
         </div>
       </section>
 
