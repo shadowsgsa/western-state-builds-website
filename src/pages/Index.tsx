@@ -70,18 +70,6 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service Card 1 */}
-            <div className="service-card initially-hidden opacity-0">
-              <div className="bg-construction-brick bg-opacity-10 p-4 inline-block rounded-full mb-6">
-                <HomeIcon className="h-8 w-8 text-construction-brick" />
-              </div>
-              <h3 className="text-xl font-bold mb-4 text-construction-darkgray">Residential Construction</h3>
-              <p className="text-gray-600 mb-6">
-                We build high-quality homes with attention to detail, personalizing each project to match your vision and lifestyle.
-              </p>
-              <Link to="/services#residential" className="flex items-center text-construction-brick font-semibold hover:underline group">
-                Learn More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </div>
 
             {/* Service Card 2 */}
             <div className="service-card initially-hidden opacity-0" style={{ animationDelay: '0.2s' }}>
