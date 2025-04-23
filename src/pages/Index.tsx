@@ -68,7 +68,8 @@ const Index = () => {
            // </p>
          // </div>
        // </div>
-     // </section> }
+     // </section> 
+      }
 
        {/* About Preview Section */}
       <section className="py-20">
