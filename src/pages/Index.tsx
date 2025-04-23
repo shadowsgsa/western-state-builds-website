@@ -53,38 +53,6 @@ const Index = () => {
               </Button>
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="initially-hidden opacity-0">
-              <h2 className="section-title">About Western State Construction</h2>
-              <p className="text-gray-600 mb-6">
-                For over 25 years, Western State Construction has been a leader in the construction industry, 
-                delivering exceptional quality and service across the Western United States.
-              </p>
-              <p className="text-gray-600 mb-6">
-                Our team of experienced professionals is dedicated to bringing your construction vision to life, 
-                combining innovative techniques with traditional craftsmanship.
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-                <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>Licensed & Insured</span>
-                </div>
-                <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>On-Time Delivery</span>
-                </div>
-                <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>Quality Materials</span>
-                </div>
-                <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>Experienced Team</span>
-                </div>
-              </div>
-              <Button asChild className="btn-primary">
-                <Link to="/about">Learn More About Us</Link>
-              </Button>
             </div>
             <div className="relative h-96 initially-hidden opacity-0">
               <img 
