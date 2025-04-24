@@ -122,20 +122,7 @@ const Projects: React.FC = () => {
               >
                 All Projects
               </Button>
-             <Button 
-              //  variant={filter === "residential" ? "default" : "outline"}
-               // onClick={() => setFilter("residential")}
-              //  className={filter === "residential" ? "bg-construction-brick hover:bg-construction-brick/90" : ""}
-           //   >
-             //   Residential
-           //   </Button>
-            //  <Button 
-              //  variant={filter === "commercial" ? "default" : "outline"}
-              //  onClick={() => setFilter("commercial")}
-              //  className={filter === "commercial" ? "bg-construction-brick hover:bg-construction-brick/90" : ""}
-             // >
-               // Commercial
-             // </Button>
+             
             </div>
           </div>
 
