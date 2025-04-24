@@ -10,7 +10,7 @@ const projects = [
     title: "Luxury Residence",
     location: "Mountain View, CA",
     category: "residential",
-    imageUrl: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    imageUrl: "pexels-ron-lach-8830259.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     description: "Custom-built luxury home with modern architectural design and premium finishes."
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     title: "Office Complex",
     location: "San Francisco, CA",
     category: "commercial",
-    imageUrl: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    imageUrl: "pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     description: "Multi-story office building with state-of-the-art facilities and sustainable design elements."
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     title: "Retail Center",
     location: "Portland, OR",
     category: "commercial",
-    imageUrl: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    imageUrl: "pexels-enginakyurt-1463917.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     description: "Shopping mall renovation with modern aesthetics and improved customer flow."
   },
   {
