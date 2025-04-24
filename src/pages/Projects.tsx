@@ -29,30 +29,7 @@ const projects = [
     imageUrl: "pexels-enginakyurt-1463917.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     description: "Shopping mall renovation with modern aesthetics and improved customer flow."
   },
-  {
-    id: 4,
-    title: "Modern Townhomes",
-    location: "Seattle, WA",
-    category: "residential",
-    imageUrl: "https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    description: "Contemporary townhouse development with energy-efficient features and sleek design."
-  },
-  {
-    id: 5,
-    title: "Coastal Restaurant",
-    location: "San Diego, CA",
-    category: "commercial",
-    imageUrl: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    description: "Waterfront dining establishment with panoramic ocean views and custom interior."
-  },
-  {
-    id: 6,
-    title: "Mountain Cabin",
-    location: "Aspen, CO",
-    category: "residential",
-    imageUrl: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    description: "Rustic yet modern mountain retreat built with sustainable materials and energy efficiency."
-  }
+ 
 ];
 
 const Projects: React.FC = () => {
