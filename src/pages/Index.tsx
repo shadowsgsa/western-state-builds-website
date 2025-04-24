@@ -213,7 +213,7 @@ const Index = () => {
             {/* Project Item 1 */}
             <div className="portfolio-item initially-hidden opacity-0">
               <img 
-                src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="/pexels-enginakyurt-1463917.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Luxury Residence" 
                 className="w-full h-64 object-cover"
               />
