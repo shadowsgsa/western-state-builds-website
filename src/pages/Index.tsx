@@ -3,6 +3,10 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, HomeIcon, Building, Hammer, PenTool, Users, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { useToast } from '@/components/ui/use-toast';
+import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 
 // Hero Section Background Image
 const heroBackground = "/lovable-uploads/093485ba-917c-4c11-940a-e82b453834fc.png";
