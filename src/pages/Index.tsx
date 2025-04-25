@@ -317,6 +317,121 @@ const Index = () => {
         </div>
       </section>
 
+       {/* Contact Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            {/* Contact Form */}
+            <div className="initially-hidden opacity-0">
+              <h2 className="section-title">Send Us a Message</h2>
+              <p className="text-gray-600 mb-8">
+                Fill out the form below, and one of our team members will get back to you within 24 hours.
+              </p>
+              
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                    <Input type="text" id="name" required placeholder="John Doe" />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                    <Input type="email" id="email" required placeholder="your@email.com" />
+                  </div>
+                </div>
+                
+                <div>
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                  <Input type="tel" id="phone" placeholder="(123) 456-7890" />
+                </div>
+                
+                <div>
+                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                  <Input type="text" id="subject" placeholder="Project Inquiry" />
+                </div>
+                
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+                  <Textarea id="message" required placeholder="Tell us about your project or inquiry..." className="h-32" />
+                </div>
+                
+                <Button type="submit" className="btn-primary w-full">Send Message</Button>
+              </form>
+            </div>
+            
+            {/* Contact Info */}
+            <div className="initially-hidden opacity-0">
+              <h2 className="section-title">Contact Information</h2>
+              <p className="text-gray-600 mb-8">
+                You can reach us through the contact details below or visit our office during business hours.
+              </p>
+              
+              <div className="space-y-6">
+                <div className="flex items-start">
+                  <div className="bg-construction-brick bg-opacity-10 p-4 rounded-full mr-4">
+                    <MapPin className="h-6 w-6 text-construction-brick" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">Our Location</h3>
+                    <p className="text-gray-600">9461 Charleville Blvd Ste.#285 Beverly Hills, Calif.90212</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="bg-construction-brick bg-opacity-10 p-4 rounded-full mr-4">
+                    <Phone className="h-6 w-6 text-construction-brick" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">Phone Number</h3>
+                    <p className="text-gray-600">
+                      <a href="tel:+13104095910" className="hover:text-construction-brick">(310)-409-5910</a>
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="bg-construction-brick bg-opacity-10 p-4 rounded-full mr-4">
+                    <Mail className="h-6 w-6 text-construction-brick" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">Email Address</h3>
+                    <p className="text-gray-600">
+                      <a href="mailto:ken7938@gmail.com" className="hover:text-construction-brick">ken7938@gmail.com</a>
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="bg-construction-brick bg-opacity-10 p-4 rounded-full mr-4">
+                    <Clock className="h-6 w-6 text-construction-brick" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg mb-1">Business Hours</h3>
+                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    <p className="text-gray-600">Saturday: 9:00 AM - 1:00 PM</p>
+                    <p className="text-gray-600">Sunday: Closed</p>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Google Map */}
+              <div className="mt-10 h-80 bg-gray-200 rounded-lg overflow-hidden">
+                <iframe 
+                  src="https://www.google.com/maps/place/9461+Charleville+Blvd+%23285,+Beverly+Hills,+CA+90212,+USA/@34.0651679,-118.4013947,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2bbf954d71ecd:0xf4d4c78fbb0a2139!8m2!3d34.0651679!4d-118.3988198!16s%2Fg%2F11qpw2hk7s?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D" 
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen={true}
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Western State Construction Location"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-construction-darkgray text-white">
         <div className="container mx-auto px-4 text-center">
