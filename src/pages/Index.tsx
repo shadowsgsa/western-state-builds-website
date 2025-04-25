@@ -267,6 +267,56 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="initially-hidden opacity-0">
+              <h2 className="section-title">Our Commercial Projects</h2>
+              <p className="text-gray-600 mb-6">
+                With decades of experience, we specialize in delivering high-quality commercial construction projects—from sleek office buildings to dynamic retail spaces.
+                Our team ensures every detail meets your specifications, while staying on schedule and within budget.
+              </p>
+              <p className="text-gray-600 mb-6">
+                From initial planning to the final walkthrough, we handle each project with precision, transparency, and a deep commitment to excellence. 
+                No matter the scale or complexity, we transform your commercial vision into a reality that supports your business success.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                <div className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <span>Licensed & Insured</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <span>On-Time Delivery</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <span>Quality Materials</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <span>Experienced Team</span>
+                </div>
+              </div>
+              <Button asChild className="btn-primary">
+                <Link to="/services">View All Services</Link>
+              </Button>
+            </div>
+            <div className="relative h-96 initially-hidden opacity-0">
+              <img 
+                src="/20250424_112047.png" 
+                alt="Construction team working" 
+                className="w-full h-full object-cover rounded-lg shadow-xl"
+              />
+              <div className="absolute -bottom-8 -left-8 bg-white p-4 rounded-lg shadow-lg w-40 h-40 flex flex-col items-center justify-center">
+                <span className="text-3xl font-bold text-construction-brick">25+</span>
+                <span className="text-sm text-center mt-2">Years of Excellence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-construction-darkgray text-white">
         <div className="container mx-auto px-4 text-center">
