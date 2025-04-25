@@ -272,14 +272,14 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="initially-hidden opacity-0">
-              <h2 className="section-title">Our Commercial Projects</h2>
+              <h2 className="section-title">How We Build</h2>
               <p className="text-gray-600 mb-6">
-                With decades of experience, we specialize in delivering high-quality commercial construction projects—from sleek office buildings to dynamic retail spaces.
-                Our team ensures every detail meets your specifications, while staying on schedule and within budget.
+                At Western State Construction, we combine innovation, craftsmanship, and precision to deliver structures that stand the test of time.
+                Our process begins with a deep understanding of your vision, followed by meticulous planning, quality sourcing of materials, and strict adherence to safety standards.
               </p>
               <p className="text-gray-600 mb-6">
-                From initial planning to the final walkthrough, we handle each project with precision, transparency, and a deep commitment to excellence. 
-                No matter the scale or complexity, we transform your commercial vision into a reality that supports your business success.
+                final touches, we maintain clear communication and expert supervision at every stage.
+                With a commitment to excellence and a passion for building, we turn ideas into solid reality—on time and within budget.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-start">
