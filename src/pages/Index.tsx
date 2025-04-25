@@ -109,7 +109,7 @@ const Index = () => {
             </div>
             <div className="relative h-96 initially-hidden opacity-0">
               <img 
-                src="20250424_112047.heic" 
+                src="/20250424_112047.png" 
                 alt="Construction team working" 
                 className="w-full h-full object-cover rounded-lg shadow-xl"
               />
