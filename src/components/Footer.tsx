@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-3 text-construction-brick" />
-                <span className="text-gray-300"><a href="https://westernstateconstruction.net/">westernstateconstruction.net</a></span>
+                <a className="text-gray-300" href="https://westernstateconstruction.net/">westernstateconstruction.net</a>
               </li>
             </ul>
           </div>
