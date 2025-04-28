@@ -188,7 +188,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/093485ba-917c-4c11-940a-e82b453834fc.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Construction team working" 
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
               />
               { // <div className="absolute -bottom-8 -left-8 bg-white p-4 rounded-lg shadow-lg w-40 h-40 flex flex-col items-center justify-center">
                // <span className="text-3xl font-bold text-construction-brick">25+</span>
