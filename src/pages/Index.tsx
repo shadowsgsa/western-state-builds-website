@@ -186,7 +186,7 @@ const Index = () => {
             </div>
             <div className="relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden ">
               <img 
-                src="/lovable-uploads/093485ba-917c-4c11-940a-e82b453834fc.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="/1667407337_41-idei-club-p-belii-chastnii-dom-pinterest-42.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Construction team working" 
                 className="w-full h-full object-cover"
               />
