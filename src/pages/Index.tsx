@@ -184,7 +184,7 @@ const Index = () => {
                 <Link to="/about">Learn More About Us</Link>
               </Button>
             </div>
-            <div className="relative h-96 ">
+            <div className="relative h-96 w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden ">
               <img 
                 src="/lovable-uploads/093485ba-917c-4c11-940a-e82b453834fc.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Construction team working" 
