@@ -69,7 +69,7 @@ const Footer = () => {
                 <a href="mailto:ken7938@gmail.com" className="text-gray-300 hover:text-construction-brick transition-colors">ken7938@gmail.com</a>
               </li>
               <li className="flex items-center">
-                <Map className="h-5 w-5 mr-3 text-construction-brick" />
+                <MapPin className="h-5 w-5 mr-3 text-construction-brick" />
                 <span className="text-gray-300"><a href="https://westernstateconstruction.net/">westernstateconstruction.net</a></span>
               </li>
             </ul>
