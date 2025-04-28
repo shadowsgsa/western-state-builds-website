@@ -117,7 +117,8 @@ const Index = () => {
                { // <div className="absolute -bottom-8 -left-8 bg-white p-4 rounded-lg shadow-lg w-40 h-40 flex flex-col items-center justify-center">
                // <span className="text-3xl font-bold text-construction-brick">25+</span>
                // <span className="text-sm text-center mt-2">Years of Excellence</span>
-             // </div> }
+             // </div>
+               }
             </div>
           </div>
         </div>
@@ -192,7 +193,8 @@ const Index = () => {
               { // <div className="absolute -bottom-8 -left-8 bg-white p-4 rounded-lg shadow-lg w-40 h-40 flex flex-col items-center justify-center">
                // <span className="text-3xl font-bold text-construction-brick">25+</span>
                // <span className="text-sm text-center mt-2">Years of Excellence</span>
-             // </div> }
+             // </div> 
+              }
             </div>
           </div>
         </div>
@@ -312,7 +314,8 @@ const Index = () => {
               { // <div className="absolute -bottom-8 -left-8 bg-white p-4 rounded-lg shadow-lg w-40 h-40 flex flex-col items-center justify-center">
                // <span className="text-3xl font-bold text-construction-brick">25+</span>
                // <span className="text-sm text-center mt-2">Years of Excellence</span>
-             // </div> }
+             // </div> 
+              }
             </div>
           </div>
         </div>
