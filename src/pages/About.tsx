@@ -130,8 +130,8 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* Left Side */}
             <div className="bg-white rounded-lg shadow-md overflow-hidden initially-hidden opacity-0">
-              <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="CEO" className="w-full h-64 object-cover object-center" />
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 text-construction-darkgray">John Doe</h3>
                 <p className="text-construction-brick font-medium mb-4">Founder & CEO</p>
@@ -139,7 +139,7 @@ const About = () => {
               </div>
             </div>
 
-           {/* Project Item 3 */}
+           {/* Right Side */}
             <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
               <img 
                 src="WhatsApp Image 2025-04-29 at 5.44.37 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
