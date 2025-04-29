@@ -212,7 +212,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 h-64 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full">
             {/* Project Item 1 */}
             <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden">
               <img 
@@ -220,7 +220,7 @@ const Index = () => {
                 alt="Luxury Residence" 
                 className="w-full h-full object-cover"
               />
-              <div className="portfolio-overlay p-6">
+              <div className="portfolio-overlay absolute inset-0 bg-black/40 flex flex-col justify-end p-6">
                 <h3 className="text-xl font-bold text-white mb-2">Luxury Residence</h3>
                 <p className="text-gray-200 mb-4">Custom Home in Mountain View</p>
                 <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
