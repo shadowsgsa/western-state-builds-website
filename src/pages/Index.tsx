@@ -262,6 +262,23 @@ const Index = () => {
             </div>
           </div>
 
+           {/* Project Item 4 */}
+            <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
+              <img 
+                src="House.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                alt="Retail Center" 
+                className="w-full h-64 object-cover"
+              />
+              <div className="portfolio-overlay p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Retail Center</h3>
+                <p className="text-gray-200 mb-4">Shopping Mall Renovation</p>
+                <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
+                  <Link to="/projects/3">View Details</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+
           <div className="text-center mt-12">
             <Button asChild className="btn-secondary">
               <Link to="/projects">View All Projects</Link>
