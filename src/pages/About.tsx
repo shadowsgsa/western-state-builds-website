@@ -140,7 +140,7 @@ const About = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 mb-8">
                 <div className="flex items-start">
                   <FaSearch className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>Licensed & Insured</span>
+                  <span>Licenseds & Insured</span>
                 </div>
                 <div className="flex items-start">
                   <FaBriefcase className="h-5 w-5 text-construction-brick mr-2 mt-1" />
