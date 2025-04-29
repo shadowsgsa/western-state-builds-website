@@ -175,9 +175,9 @@ const About = () => {
         </div>
       </section>
 
-        <section className="py-20">
+        <section className="py-20 bg-construction-offwhite">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16 initially-hidden opacity-0">
+          <div className="text-center initially-hidden opacity-0">
             <p>About us</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">15 Years of Partnering With Contractors</h2>
             <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
@@ -199,7 +199,6 @@ const About = () => {
       <section className="py-20 bg-construction-offwhite">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 initially-hidden opacity-0">
-            <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full">
