@@ -137,17 +137,17 @@ const About = () => {
                   Delays, missteps, or structural uncertainties at the start can ripple through an entire build. That’s why we bring a disciplined focus to what we do best—precise framing and uncompromising foundations. With our team on-site, you gain more than skilled labor;
                   you gain a dependable foundation for progress, ensuring your project begins with strength, stability, and total confidence.</p>
                 <p className="text-gray-600"></p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 mb-8">
                 <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <FaSearch className="h-5 w-5 text-construction-brick mr-2 mt-1" />
                   <span>Licensed & Insured</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <FaBriefcase className="h-5 w-5 text-construction-brick mr-2 mt-1" />
                   <span>On-Time Delivery</span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <FaHandHolding className="h-5 w-5 text-construction-brick mr-2 mt-1" />
                   <span>Quality Materials</span>
                 </div>
               </div>
