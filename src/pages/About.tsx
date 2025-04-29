@@ -141,11 +141,7 @@ const About = () => {
 
             <div className="bg-white rounded-lg shadow-md overflow-hidden initially-hidden opacity-0" style={{ animationDelay: '0.2s' }}>
               <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="COO" className="w-full h-64 object-cover object-center" />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-construction-darkgray">Jane Smith</h3>
-                <p className="text-construction-brick font-medium mb-4">Chief Operations Officer</p>
-                <p className="text-gray-600">Oversees all construction operations, ensuring projects run smoothly and efficiently.</p>
-              </div>
+             
             </div>
           </div>
         </div>
