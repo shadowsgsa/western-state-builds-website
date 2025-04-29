@@ -190,7 +190,7 @@ const About = () => {
             <p className="text-lg text-gray-600 max-w-6xl mx-auto">we help bring your project’s vision to life—on time and to the highest standard.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-8 w-full">
             {/* Project Item 1 */}
             <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden">
               <img 
