@@ -140,6 +140,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1"><a href="https://westernstateconstruction.net/">westernstateconstruction.net</a></h3>
+                    <p className="text-gray-600">Visit Our Website For Details</p>
                   </div>
                 </div>
               </div>
