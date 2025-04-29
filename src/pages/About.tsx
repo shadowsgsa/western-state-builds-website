@@ -192,45 +192,10 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Left Side */}
-            <div className="bg-white rounded-lg overflow-hidden initially-hidden opacity-0">
-              <div className="p-6"> 
-                <p className="text-construction-grey font-medium text-lg mb-4">As long-standing partners to general contractors and real estate developers, we understand that the early stages of a project are critical to its long-term success.
-                  Delays, missteps, or structural uncertainties at the start can ripple through an entire build. That’s why we bring a disciplined focus to what we do best—precise framing and uncompromising foundations. With our team on-site, you gain more than skilled labor;
-                  you gain a dependable foundation for progress, ensuring your project begins with strength, stability, and total confidence.</p>
-                <p className="text-gray-600"></p>
-                <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 mb-8">
-                <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>Our efficient workflows ensure that framing and foundation work is executed swiftly—without ever sacrificing quality.</span>
-                </div>
-                <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>Backed by years of hands-on industry experience, we’ve refined the techniques and craftsmanship needed to deliver durable, high-performance structures that stand the test of time.</span>
-                </div>
-                <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>From initial consultations to final inspections, we keep you informed every step of the way—so you always know exactly where your project stands.</span>
-                </div>
-              </div>
-                
-              </div>
-            </div>
+            
 
            {/* Right Side */}
-            <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
-              <img 
-                src="WhatsApp Image 2025-04-29 at 5.44.37 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                alt="Retail Center" 
-                className="w-full h-full object-cover"
-              />
-              <div className="portfolio-overlay p-6">
-                <h3 className="text-xl font-bold text-white mb-2">Retail Center</h3>
-                <p className="text-gray-200 mb-4">Shopping Mall Renovation</p>
-                <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
-                  <Link to="/projects/3">View Details</Link>
-                </Button>
-              </div>
-            </div>
+         
             
           </div>
         </div>
