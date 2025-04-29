@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/components/ui/use-toast';
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin,Globe, Phone, Mail, Clock } from 'lucide-react';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -136,13 +136,10 @@ const Contact = () => {
                 
                 <div className="flex items-start">
                   <div className="bg-construction-brick bg-opacity-10 p-4 rounded-full mr-4">
-                    <Clock className="h-6 w-6 text-construction-brick" />
+                    <Globe className="h-6 w-6 text-construction-brick" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-lg mb-1">Business Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 5:00 PM</p>
-                    <p className="text-gray-600">Saturday: 9:00 AM - 1:00 PM</p>
-                    <p className="text-gray-600">Sunday: Closed</p>
+                    <h3 className="font-bold text-lg mb-1"><a href="https://westernstateconstruction.net/">westernstateconstruction.net</a></h3>
                   </div>
                 </div>
               </div>
