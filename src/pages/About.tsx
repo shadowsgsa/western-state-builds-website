@@ -131,11 +131,11 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Left Side */}
-            <div className="bg-white rounded-lg shadow-md overflow-hidden initially-hidden opacity-0">
+            <div className="bg-white rounded-lg overflow-hidden initially-hidden opacity-0">
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-construction-darkgray">John Doe</h3>
-                <p className="text-construction-brick font-medium mb-4">Founder & CEO</p>
-                <p className="text-gray-600">25+ years of construction experience, leading Western State since its founding.</p>
+                <p className="text-construction-grey font-medium mb-4">As trusted partners to general contractors and real estate developers, we know the importance of launching every project smoothly and without delays.
+                  Our team specializes in precision framing and solid foundations, ensuring your build starts strong—so you can move ahead with confidence.</p>
+                <p className="text-gray-600"></p>
               </div>
             </div>
 
