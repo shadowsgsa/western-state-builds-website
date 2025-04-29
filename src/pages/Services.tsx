@@ -85,7 +85,7 @@ const Services = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="Woodcraft-Homes-custom-home-build-11458462-scaled.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Residential Construction" 
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
@@ -96,7 +96,7 @@ const Services = () => {
           <div id="commercial" className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20 initially-hidden opacity-0">
             <div className="order-2 lg:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="Gazillion-1654.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Commercial Construction" 
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
@@ -171,7 +171,7 @@ const Services = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Custom Home Construction" 
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
