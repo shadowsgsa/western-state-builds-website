@@ -123,14 +123,13 @@ const About = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 initially-hidden opacity-0">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">Our Leadership Team</h2>
+            <p>Why Us</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">How Can We Help Your Project?</h2>
             <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Meet the experienced professionals who lead Western State Construction with vision, expertise, and dedication.
-            </p>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto"            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white rounded-lg shadow-md overflow-hidden initially-hidden opacity-0">
               <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="CEO" className="w-full h-64 object-cover object-center" />
               <div className="p-6">
@@ -146,15 +145,6 @@ const About = () => {
                 <h3 className="text-xl font-bold mb-2 text-construction-darkgray">Jane Smith</h3>
                 <p className="text-construction-brick font-medium mb-4">Chief Operations Officer</p>
                 <p className="text-gray-600">Oversees all construction operations, ensuring projects run smoothly and efficiently.</p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-md overflow-hidden initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Chief Architect" className="w-full h-64 object-cover object-center" />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-construction-darkgray">Michael Johnson</h3>
-                <p className="text-construction-brick font-medium mb-4">Chief Architect</p>
-                <p className="text-gray-600">Award-winning architect with a passion for innovative, sustainable design.</p>
               </div>
             </div>
           </div>
