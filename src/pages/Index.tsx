@@ -212,13 +212,13 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 h-screen w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 h-screen w-screen">
             {/* Project Item 1 */}
             <div className="portfolio-item initially-hidden opacity-0">
               <img 
                 src="/pexels-enginakyurt-1463917.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Luxury Residence" 
-                className="w-full h-64 object-contain"
+                className="w-full h-64 object-cover"
               />
               <div className="portfolio-overlay p-6">
                 <h3 className="text-xl font-bold text-white mb-2">Luxury Residence</h3>
@@ -234,7 +234,7 @@ const Index = () => {
               <img 
                 src="WhatsApp Image 2025-04-29 at 5.41.50 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Office Complex" 
-                className="w-full h-64 object-contain"
+                className="w-full h-64 object-cover"
               />
               <div className="portfolio-overlay p-6">
                 <h3 className="text-xl font-bold text-white mb-2">Office Complex</h3>
@@ -250,7 +250,7 @@ const Index = () => {
               <img 
                 src="WhatsApp Image 2025-04-29 at 5.44.37 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Retail Center" 
-                className="w-full h-64 object-contain"
+                className="w-full h-64 object-cover"
               />
               <div className="portfolio-overlay p-6">
                 <h3 className="text-xl font-bold text-white mb-2">Retail Center</h3>
@@ -266,7 +266,7 @@ const Index = () => {
               <img 
                 src="pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Retail Center" 
-                className="w-full h-64 object-contain"
+                className="w-full h-64 object-cover"
               />
               <div className="portfolio-overlay p-6">
                 <h3 className="text-xl font-bold text-white mb-2">Retail Center</h3>
