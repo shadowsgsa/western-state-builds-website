@@ -184,7 +184,7 @@ const Index = () => {
                 <Link to="/about">Learn More About Us</Link>
               </Button>
             </div>
-            <div className="relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden ">
+            <div className="relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden">
               <img 
                 src="/093485ba-917c-4c11-940a-e82b453834fc.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Construction team working" 
@@ -214,7 +214,7 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 h-screen w-full">
             {/* Project Item 1 */}
-            <div className="portfolio-item initially-hidden opacity-0">
+            <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden">
               <img 
                 src="/pexels-enginakyurt-1463917.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Luxury Residence" 
@@ -230,7 +230,7 @@ const Index = () => {
             </div>
 
             {/* Project Item 2 */}
-            <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.2s' }}>
+            <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden" style={{ animationDelay: '0.2s' }}>
               <img 
                 src="WhatsApp Image 2025-04-29 at 5.41.50 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Office Complex" 
@@ -246,7 +246,7 @@ const Index = () => {
             </div>
 
             {/* Project Item 3 */}
-            <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
+            <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden" style={{ animationDelay: '0.4s' }}>
               <img 
                 src="WhatsApp Image 2025-04-29 at 5.44.37 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Retail Center" 
@@ -262,7 +262,7 @@ const Index = () => {
             </div>
 
             {/* Project Item 4 */}
-            <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
+            <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden" style={{ animationDelay: '0.4s' }}>
               <img 
                 src="pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Retail Center" 
