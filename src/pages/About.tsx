@@ -126,7 +126,7 @@ const About = () => {
             <p>Why Us</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">How Can We Help Your Project?</h2>
             <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto"            </p>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto"></p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
