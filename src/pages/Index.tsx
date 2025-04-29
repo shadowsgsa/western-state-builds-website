@@ -212,7 +212,7 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 h-full w-full">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 h-full w-full object-contain">
             {/* Project Item 1 */}
             <div className="portfolio-item initially-hidden opacity-0">
               <img 
@@ -261,7 +261,7 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Project Item  */}
+            {/* Project Item 4 */}
             <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
               <img 
                 src="pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
