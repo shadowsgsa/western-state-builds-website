@@ -189,14 +189,90 @@ const About = () => {
             <p className="text-lg text-gray-600 max-w-6xl mx-auto">and a keen eye for detail. With a focus on design integrity, precision, and meeting deadlines,</p>
             <p className="text-lg text-gray-600 max-w-6xl mx-auto">we help bring your project’s vision to life—on time and to the highest standard.</p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Left Side */}
-            
+           {/* Right Side */} 
+          </div>
+        </div>
+      </section>
 
-           {/* Right Side */}
-         
+      <section className="py-20 bg-construction-offwhite">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16 initially-hidden opacity-0">
+            <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-full">
+            {/* Project Item 1 */}
+            <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden">
+              <img 
+                src="/pexels-enginakyurt-1463917.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                alt="Luxury Residence" 
+                className="w-full h-full object-cover"
+              />
+              <div className="portfolio-overlay absolute inset-0 bg-black/40 flex flex-col justify-end p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Luxury Residence</h3>
+                <p className="text-gray-200 mb-4">Custom Home in Mountain View</p>
+                <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
+                  <Link to="/projects/1">View Details</Link>
+                </Button>
+              </div>
+            </div>
+
+            {/* Project Item 2 */}
+            <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden" style={{ animationDelay: '0.2s' }}>
+              <img 
+                src="WhatsApp Image 2025-04-29 at 5.41.50 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                alt="Office Complex" 
+                className="w-full h-full object-cover"
+              />
+              <div className="portfolio-overlay p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Office Complex</h3>
+                <p className="text-gray-200 mb-4">Modern Commercial Building</p>
+                <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
+                  <Link to="/projects/2">View Details</Link>
+                </Button>
+              </div>
+            </div>
+
+            {/* Project Item 3 */}
+            <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden" style={{ animationDelay: '0.4s' }}>
+              <img 
+                src="WhatsApp Image 2025-04-29 at 5.44.37 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                alt="Retail Center" 
+                className="w-full h-full object-cover"
+              />
+              <div className="portfolio-overlay p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Retail Center</h3>
+                <p className="text-gray-200 mb-4">Shopping Mall Renovation</p>
+                <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
+                  <Link to="/projects/3">View Details</Link>
+                </Button>
+              </div>
+            </div>
+
+            {/* Project Item 4 */}
+            <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden" style={{ animationDelay: '0.4s' }}>
+              <img 
+                src="pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                alt="Retail Center" 
+                className="w-full h-full object-cover"
+              />
+              <div className="portfolio-overlay p-6">
+                <h3 className="text-xl font-bold text-white mb-2">Retail Center</h3>
+                <p className="text-gray-200 mb-4">Shopping Mall Renovation</p>
+                <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
+                  <Link to="/projects/3">View Details</Link>
+                </Button>
+              </div>
+            </div>
             
+          </div>
+
+          <div className="text-center mt-12">
+            <Button asChild className="btn-secondary">
+              <Link to="/projects">View All Projects</Link>
+            </Button>
           </div>
         </div>
       </section>
