@@ -178,8 +178,8 @@ const About = () => {
         <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 initially-hidden opacity-0">
-            <p>Why Us</p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">How Can We Help Your Project?</h2>
+            <p>About us</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">15 Years of Partnering With Contractors</h2>
             <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto"></p>
           </div>
