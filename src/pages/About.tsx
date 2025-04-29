@@ -140,15 +140,15 @@ const About = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 mb-8">
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>Our efficient workflows ensure that framing and foundation work is executed swiftly—without ever sacrificing quality.</span>
+                  <span className="text-construction-grey font-medium text-lg mb-4">Our efficient workflows ensure that framing and foundation work is executed swiftly—without ever sacrificing quality.</span>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>Backed by years of hands-on industry experience, we’ve refined the techniques and craftsmanship needed to deliver durable, high-performance structures that stand the test of time.</span>
+                  <span className="text-construction-grey font-medium text-lg mb-4">Backed by years of hands-on industry experience, we’ve refined the techniques and craftsmanship needed to deliver durable, high-performance structures that stand the test of time.</span>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
-                  <span>From initial consultations to final inspections, we keep you informed every step of the way—so you always know exactly where your project stands.</span>
+                  <span className="text-construction-grey font-medium text-lg mb-4">From initial consultations to final inspections, we keep you informed every step of the way—so you always know exactly where your project stands.</span>
                 </div>
               </div>
                 
