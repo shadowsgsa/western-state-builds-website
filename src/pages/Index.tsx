@@ -232,7 +232,7 @@ const Index = () => {
             {/* Project Item 2 */}
             <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.2s' }}>
               <img 
-                src="/pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="WhatsApp Image 2025-04-29 at 5.41.50 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Office Complex" 
                 className="w-full h-64 object-cover"
               />
@@ -248,7 +248,7 @@ const Index = () => {
             {/* Project Item 3 */}
             <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
               <img 
-                src="/pexels-ron-lach-8830259.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="WhatsApp Image 2025-04-29 at 5.44.37 AM.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Retail Center" 
                 className="w-full h-64 object-cover"
               />
