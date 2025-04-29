@@ -133,8 +133,9 @@ const About = () => {
             {/* Left Side */}
             <div className="bg-white rounded-lg overflow-hidden initially-hidden opacity-0">
               <div className="p-6">
-                <p className="text-construction-grey font-medium mb-4">As trusted partners to general contractors and real estate developers, we know the importance of launching every project smoothly and without delays.
-                  Our team specializes in precision framing and solid foundations, ensuring your build starts strong—so you can move ahead with confidence.</p>
+                <p className="text-construction-grey font-medium text-lg mb-4">As long-standing partners to general contractors and real estate developers, we understand that the early stages of a project are critical to its long-term success.
+                  Delays, missteps, or structural uncertainties at the start can ripple through an entire build. That’s why we bring a disciplined focus to what we do best—precise framing and uncompromising foundations. With our team on-site, you gain more than skilled labor;
+                  you gain a dependable foundation for progress, ensuring your project begins with strength, stability, and total confidence.</p>
                 <p className="text-gray-600"></p>
               </div>
             </div>
