@@ -260,9 +260,8 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-          </div>
 
-           {/* Project Item 4 */}
+            {/* Project Item  */}
             <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
               <img 
                 src="pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
@@ -277,6 +276,7 @@ const Index = () => {
                 </Button>
               </div>
             </div>
+            
           </div>
 
           <div className="text-center mt-12">
