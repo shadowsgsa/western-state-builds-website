@@ -181,7 +181,7 @@ const About = () => {
             <p>About us</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-construction-darkgray">15 Years of Partnering With Contractors</h2>
             <div className="w-20 h-1 bg-construction-brick mx-auto mb-6"></div>
-            <p>We are a general construction and carpentry company based in Los Angeles,<br>proudly serving Los Angeles, Orange, and Ventura Counties.<br> Partnering with developers and general contractors, we deliver high-quality<br> craftsmanship across a wide range of projects—from ground-up builds and renovations to specialized carpentry work.</p>
+            <p>We are a general construction and carpentry company based in Los Angeles, proudly serving Los Angeles, Orange, and Ventura Counties. Partnering with developers and general contractors, we deliver high-quality craftsmanship across a wide range of projects—from ground-up builds and renovations to specialized carpentry work.</p>
             <p></p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto"></p>
           </div>
