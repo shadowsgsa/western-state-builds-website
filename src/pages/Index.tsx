@@ -265,7 +265,7 @@ const Index = () => {
            {/* Project Item 4 */}
             <div className="portfolio-item initially-hidden opacity-0" style={{ animationDelay: '0.4s' }}>
               <img 
-                src="House.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Retail Center" 
                 className="w-full h-64 object-cover"
               />
