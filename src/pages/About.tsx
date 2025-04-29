@@ -139,7 +139,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="rounded-lg shadow-md overflow-hidden initially-hidden opacity-0 h-full w-full" style={{ animationDelay: '0.2s' }}>
+            <div className="rounded-lg overflow-hidden initially-hidden opacity-0 h-full w-full" style={{ animationDelay: '0.2s' }}>
               <img className="h-full w-full object-cover" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="COO" className="w-full h-64 object-cover object-center" />
              
             </div>
