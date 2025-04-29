@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Clock, Award, Users, CheckCircle ,FaSearch, FaBriefcase, FaHandHolding} from 'lucide-react';
+import { Clock, Award, Users, CheckCircle} from 'lucide-react';
 
 const About = () => {
   // Animation on scroll effect
