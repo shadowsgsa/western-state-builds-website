@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Clock, Award, Users, CheckCircle } from 'lucide-react';
+import { Clock, Award, Users, CheckCircle ,FaSearch, FaBriefcase, FaHandHolding} from 'lucide-react';
 
 const About = () => {
   // Animation on scroll effect
@@ -132,11 +132,26 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Left Side */}
             <div className="bg-white rounded-lg overflow-hidden initially-hidden opacity-0">
-              <div className="p-6">
+              <div className="p-6"> 
                 <p className="text-construction-grey font-medium text-lg mb-4">As long-standing partners to general contractors and real estate developers, we understand that the early stages of a project are critical to its long-term success.
                   Delays, missteps, or structural uncertainties at the start can ripple through an entire build. That’s why we bring a disciplined focus to what we do best—precise framing and uncompromising foundations. With our team on-site, you gain more than skilled labor;
                   you gain a dependable foundation for progress, ensuring your project begins with strength, stability, and total confidence.</p>
                 <p className="text-gray-600"></p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                <div className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <span>Licensed & Insured</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <span>On-Time Delivery</span>
+                </div>
+                <div className="flex items-start">
+                  <CheckCircle className="h-5 w-5 text-construction-brick mr-2 mt-1" />
+                  <span>Quality Materials</span>
+                </div>
+              </div>
+                
               </div>
             </div>
 
