@@ -44,10 +44,10 @@ const About = () => {
             <div className="initially-hidden opacity-0">
               <h2 className="section-title">Our Story</h2>
               <p className="text-gray-600 mb-6">
-                Founded in 1998, Western State Construction began as a small residential contractor and has grown into one of the region's most respected construction companies. Our journey has been marked by a commitment to quality, integrity, and client satisfaction.
+                Founded in 1973, Western State Construction began as a small residential contractor and has grown into one of the region's most respected construction companies. Our journey has been marked by a commitment to quality, integrity, and client satisfaction.
               </p>
               <p className="text-gray-600 mb-6">
-                Over the past 25 years, we've completed more than 500 projects across the Western United States, from single-family homes to large commercial complexes. Our success is built on a foundation of exceptional craftsmanship and attention to detail.
+                over the past 52 years, we've completed more than 500 projects across the Western United States, from single-family homes to large commercial complexes. Our success is built on a foundation of exceptional craftsmanship and attention to detail.
               </p>
               <p className="text-gray-600">
                 Today, we continue to expand our capabilities while maintaining the personalized service that has been our hallmark since day one. Our team of 50+ professionals combines decades of experience with innovative approaches to deliver outstanding results.
