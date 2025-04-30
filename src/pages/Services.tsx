@@ -173,12 +173,12 @@ const Services = () => {
               <img 
                 src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Custom Home Construction" 
-                className="w-full h-64 object-contain rounded-lg shadow-md"
+                className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <img 
                 src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Custom Home Construction" 
-                className="w-full h-96 object-cover rounded-lg shadow-xl"
+                className="w-full h-64 object-cover rounded-lg shadow-xl"
               />
               <img 
                 src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
