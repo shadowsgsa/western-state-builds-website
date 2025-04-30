@@ -172,7 +172,7 @@ const Services = () => {
             <div className="grid grid-cols-1 gap-4">
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <img 
-      src="093485ba-917c-4c11-940a-e82b453834fc.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+      src="481271092_1026718699274288_9213120474090385504_n.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
       alt="Custom Home Top 1" 
       className="w-full h-auto object-contain rounded-lg shadow-md"
     />
@@ -185,7 +185,7 @@ const Services = () => {
   <div className="flex justify-center">
     <div className="w-full sm:w-1/2">
     <img 
-      src="481271092_1026718699274288_9213120474090385504_n.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+      src="093485ba-917c-4c11-940a-e82b453834fc.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
       alt="Custom Home Bottom" 
       className="w-full h-auto object-contain rounded-lg shadow-md"
     />
