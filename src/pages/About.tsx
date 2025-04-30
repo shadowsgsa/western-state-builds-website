@@ -194,7 +194,7 @@ const About = () => {
             {/* Project Item 1 */}
             <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden">
               <img 
-                src="/pexels-enginakyurt-1463917.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="wmremove-transformed.jpeg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Luxury Residence" 
                 className="w-full h-full object-cover"
               />
@@ -242,7 +242,7 @@ const About = () => {
             {/* Project Item 4 */}
             <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden" style={{ animationDelay: '0.4s' }}>
               <img 
-                src="pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="wmremove-transformed.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Retail Center" 
                 className="w-full h-full object-cover"
               />
