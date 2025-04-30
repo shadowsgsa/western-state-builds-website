@@ -169,23 +169,26 @@ const Services = () => {
                 </Button>
               </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <img 
-                src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                alt="Custom Home Construction" 
-                className="w-full h-64 object-cover rounded-lg shadow-md"
-              />
-              <img 
-                src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                alt="Custom Home Construction" 
-                className="w-full h-64 object-cover rounded-lg shadow-xl"
-              />
-              <img 
-                src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                alt="Custom Home Construction" 
-                className="w-full h-64 object-cover rounded-lg shadow-xl"
-              />
-            </div>
+            <div className="grid grid-cols-1 gap-4">
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    <img 
+      src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+      alt="Custom Home Top 1" 
+      className="w-full h-auto object-contain rounded-lg shadow-md"
+    />
+    <img 
+      src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+      alt="Custom Home Top 2" 
+      className="w-full h-auto object-contain rounded-lg shadow-md"
+    />
+  </div>
+  <img 
+    src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+    alt="Custom Home Bottom" 
+    className="w-full h-auto object-contain rounded-lg shadow-md"
+  />
+</div>
+
           </div>
           
           {/* Other Services */}
