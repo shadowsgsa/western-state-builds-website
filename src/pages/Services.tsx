@@ -182,12 +182,14 @@ const Services = () => {
       className="w-full h-auto object-contain rounded-lg shadow-md"
     />
   </div>
-  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+  <div className="flex justify-center">
+    <div className="w-full sm:w-1/2">
     <img 
       src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
       alt="Custom Home Bottom" 
       className="w-full h-auto object-contain rounded-lg shadow-md"
     />
+    </div>
   </div>
 </div>
           </div>
