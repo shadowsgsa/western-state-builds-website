@@ -188,8 +188,6 @@ const Services = () => {
       alt="Custom Home Bottom" 
       className="w-full h-auto object-contain rounded-lg shadow-md"
     />
-    <!-- Empty div to maintain grid structure -->
-    <div></div>
   </div>
 </div>
           </div>
