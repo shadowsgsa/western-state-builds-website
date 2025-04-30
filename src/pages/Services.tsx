@@ -185,7 +185,7 @@ const Services = () => {
   <img 
     src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
     alt="Custom Home Bottom" 
-    className="w-full h-auto object-contain rounded-lg shadow-md"
+    className="w-full h-96 object-contain rounded-lg shadow-md"
   />
 </div>
 
