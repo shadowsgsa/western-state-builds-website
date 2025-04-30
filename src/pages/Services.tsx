@@ -181,12 +181,12 @@ const Services = () => {
       alt="Custom Home Top 2" 
       className="w-full h-auto object-contain rounded-lg shadow-md"
     />
-  </div>
-  <img 
-    src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-    alt="Custom Home Bottom" 
-    className="w-50 h-auto object-contain rounded-lg shadow-md center-center"
-  />
+  <div className="flex justify-center">
+    <img 
+      src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+      alt="Custom Home Bottom" 
+      className="w-full sm:w-[calc(100%_-_1rem)] h-auto object-contain rounded-lg shadow-md"
+    />
 </div>
 
           </div>
