@@ -169,7 +169,7 @@ const Services = () => {
                 </Button>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-4 h-96" >
+            <div className="grid grid-cols-1 gap-4">
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
     <img 
       src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
@@ -181,14 +181,15 @@ const Services = () => {
       alt="Custom Home Top 2" 
       className="w-full h-auto object-contain rounded-lg shadow-md"
     />
+  </div>
   <div className="flex justify-center">
     <img 
       src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
       alt="Custom Home Bottom" 
       className="w-full sm:w-[calc(100%_-_1rem)] h-auto object-contain rounded-lg shadow-md"
     />
+  </div>
 </div>
-
           </div>
           
           {/* Other Services */}
