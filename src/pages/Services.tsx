@@ -170,6 +170,7 @@ const Services = () => {
               </div>
             </div>
             <div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6>
               <img 
                 src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Custom Home Construction" 
@@ -180,6 +181,7 @@ const Services = () => {
                 alt="Custom Home Construction" 
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
+              </div>
               <img 
                 src="hero_chancellor2.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Custom Home Construction" 
