@@ -194,7 +194,7 @@ const About = () => {
             {/* Project Item 1 */}
             <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden">
               <img 
-                src="stock-photo-beautiful-new-home-exterior-at-night-home-with-green-grass-and-covered-porch-including-stately-1249054465.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="17fd7f1a-3a88-49fc-929c-cb4d904b9b7c.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Luxury Residence" 
                 className="w-full h-full object-cover"
               />
