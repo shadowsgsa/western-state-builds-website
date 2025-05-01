@@ -85,7 +85,7 @@ const Services = () => {
             </div>
             <div>
               <img 
-                src="Residential Construction.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="Residential-Construction.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Residential Construction" 
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
@@ -96,7 +96,7 @@ const Services = () => {
           <div id="commercial" className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20 initially-hidden opacity-0">
             <div className="order-2 lg:order-1">
               <img 
-                src="Commercial Projects.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="Gazillion-1654.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Commercial Construction" 
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
