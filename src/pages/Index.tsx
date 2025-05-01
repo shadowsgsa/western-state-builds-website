@@ -324,9 +324,9 @@ const Index = () => {
             </div>
             <div className="relative h-96 initially-hidden opacity-0">
               <img 
-                src="/20250424_112047.png" 
+                src="20250424_112047 (2).jpg" 
                 alt="Construction team working" 
-                className="w-full h-full object-contain rounded-lg shadow-xl"
+                className="w-full h-full object-cover rounded-lg shadow-xl"
               />
               { // <div className="absolute -bottom-8 -left-8 bg-white p-4 rounded-lg shadow-lg w-40 h-40 flex flex-col items-center justify-center">
                // <span className="text-3xl font-bold text-construction-brick">25+</span>
