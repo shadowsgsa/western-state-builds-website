@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 
 // Hero Section Background Image
-const heroBackground = "WhatsApp Image 2025-05-02 at 12.32.27 AM.jpeg";
+const heroBackground = "bg image.jpeg";
 
 const Index = () => {
   // Animation on scroll effect
