@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 
 // Hero Section Background Image
-const heroBackground = "093485ba-917c-4c11-940a-e82b453834fc (1).png";
+const heroBackground = "/093485ba-917c-4c11-940a-e82b453834fc (1).png";
 
 const Index = () => {
   // Animation on scroll effect
