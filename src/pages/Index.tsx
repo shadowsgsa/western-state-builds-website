@@ -33,9 +33,15 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center" style={{ backgroundColor: '#000' }}>
         <div 
-          className="absolute inset-0 bg-center bg-cover bg-no-repeat opacity-70" 
-          style={{ backgroundImage: `url(${heroBackground})` }}
-        ></div>
+        className="absolute inset-0 bg-center bg-cover bg-no-repeat" 
+        style={{ 
+          backgroundImage: `url(${heroBackground})`,
+          backgroundSize: 'contain', // Changed from implicit 'cover' to 'contain'
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundColor: 'white' // Add a solid background color if needed
+        }}
+      ></div>
         <div className="container mx-auto px-4 z-10">
           <div className="max-w-3xl animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
