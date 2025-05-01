@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 
 
 // Hero Section Background Image
-const heroBackground = "/093485ba-917c-4c11-940a-e82b453834fc.png";
+const heroBackground = "WhatsApp Image 2025-05-02 at 12.32.27 AM.jpeg";
 
 const Index = () => {
   // Animation on scroll effect
@@ -46,18 +46,18 @@ const Index = () => {
       ></div>
         <div className="container mx-auto px-4 z-10">
           <div className="max-w-3xl animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black mb-6">
               Elegant Homes,<br/> 
               <span className="text-construction-brick">Crafted with Precision</span>
             </h1>
-            <p className="text-xl text-white mb-8">
+            <p className="text-xl text-black mb-8">
               Transforming architectural visions into stunning residential masterpieces.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Button asChild className="btn-primary">
                 <Link to="/quote">Get a Free Quote</Link>
               </Button>
-              <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
+              <Button asChild className="btn-outline text-black border-white hover:bg-white hover:text-construction-darkgray">
                 <Link to="/services">Our Services</Link>
               </Button>
             </div>
