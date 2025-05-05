@@ -112,14 +112,15 @@ const Projects: React.FC = () => {
                   alt={project.title} 
                   className="w-full h-64 object-cover"
                 />
-                <div className="portfolio-overlay p-6">
-                  <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-                  <p className="text-gray-200 mb-1">{project.location}</p>
-                  <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
-                  <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
-                    <Link to={`/projects/${project.id}`}>View Details</Link>
-                  </Button>
-                </div>
+                { // <div className="portfolio-overlay p-6">
+                //  <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
+                //  <p className="text-gray-200 mb-1">{project.location}</p>
+                //  <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
+                //  <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
+                 //   <Link to={`/projects/${project.id}`}>View Details</Link>
+               //   </Button>
+             //   </div>
+      }
               </div>
             ))}
           </div>
