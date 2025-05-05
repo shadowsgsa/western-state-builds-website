@@ -53,14 +53,15 @@ const Index = () => {
             <p className="text-xl text-white mb-8">
               Transforming architectural visions into stunning residential masterpieces.
             </p>
-            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Button asChild className="btn-primary">
-                <Link to="/quote">Get a Free Quote</Link>
-              </Button>
-              <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
-                <Link to="/services">Our Services</Link>
-              </Button>
-            </div>
+            {// <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+             // <Button asChild className="btn-primary">
+              //  <Link to="/quote">Get a Free Quote</Link>
+            //  </Button>
+             // <Button asChild className="btn-outline text-white border-white hover:bg-white hover:text-construction-darkgray">
+               // <Link to="/services">Our Services</Link>
+             // </Button>
+           // </div>
+            }
           </div>
         </div>
       </section>
