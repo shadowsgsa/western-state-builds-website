@@ -119,7 +119,7 @@ const Index = () => {
             </div>
             <div className="relative h-96 initially-hidden opacity-0">
               <img 
-                src="20250424_112047 (2).jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                src="pexels-kenneth-leguizamon-326725363-13795569.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                 alt="Construction team working" 
                 className="w-full h-full object-cover rounded-lg shadow-xl"
               />
@@ -273,7 +273,7 @@ const Index = () => {
             {/* Project Item 4 */}
             <div className="portfolio-item relative h-full w-full bg-gray-100 rounded-lg shadow-xl overflow-hidden" style={{ animationDelay: '0.4s' }}>
               <img 
-                src="pexels-kenneth-leguizamon-326725363-13795569.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="WhatsApp Image 2025-05-05 at 10.29.04 PM.jpeg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Retail Center" 
                 className="w-full h-full object-cover"
               />
@@ -333,7 +333,7 @@ const Index = () => {
             </div>
             <div className="relative h-96 initially-hidden opacity-0">
               <img 
-                src="WhatsApp Image 2025-05-05 at 10.29.04 PM.jpeg" 
+                src="20250424_112047 (2).jpg" 
                 alt="Construction team working" 
                 className="w-full h-full object-cover rounded-lg shadow-xl"
               />
