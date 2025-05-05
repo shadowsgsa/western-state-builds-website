@@ -85,7 +85,7 @@ const Services = () => {
             </div>
             <div>
               <img 
-                src="Residential-Construction.png?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                src="WhatsApp Image 2025-05-05 at 10.29.04 PM (1).jpeg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
                 alt="Residential Construction" 
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
