@@ -20,7 +20,7 @@ const queryClient = new QueryClient();
 
 const App: React.FC = () => {
   return (
-    <QueryClientProvider client={queryClient}>
+    {/*    <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <Sonner />
@@ -40,7 +40,7 @@ const App: React.FC = () => {
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
-  );
+ */} );
 };
 
 export default App;
